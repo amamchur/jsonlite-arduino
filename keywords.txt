@@ -1,0 +1,124 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+jsonlite_result								KEYWORD1 jsonlite_result
+jsonlite_token_type							KEYWORD1 jsonlite_token_type
+jsonlite_token								KEYWORD1 jsonlite_token
+jsonlite_buffer_struct						KEYWORD1 jsonlite_buffer_struct
+jsonlite_stream_struct						KEYWORD1 jsonlite_stream_struct
+jsonlite_buffer								KEYWORD1 jsonlite_buffer
+jsonlite_stream								KEYWORD1 jsonlite_stream
+jsonlite_parser_struct						KEYWORD1 jsonlite_parser_struct
+jsonlite_parser								KEYWORD1 jsonlite_parser
+jsonlite_event								KEYWORD1 jsonlite_event
+jsonlite_callback_context					KEYWORD1 jsonlite_callback_context
+jsonlite_token_callback						KEYWORD1 jsonlite_token_callback
+jsonlite_event_callback						KEYWORD1 jsonlite_event_callback
+jsonlite_parser_callbacks					KEYWORD1 jsonlite_parser_callbacks
+jsonlite_builder_struct						KEYWORD1 jsonlite_builder_struct
+jsonlite_builder							KEYWORD1 jsonlite_builder
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+jsonlite_utf8_sequence_length				KEYWORD2
+jsonlite_token_size_of_uft8					KEYWORD2
+jsonlite_token_to_uft8						KEYWORD2
+jsonlite_token_size_of_uft16				KEYWORD2
+jsonlite_token_to_uft16						KEYWORD2
+jsonlite_token_size_of_base64_binary		KEYWORD2
+jsonlite_token_base64_to_binary				KEYWORD2
+jsonlite_token_to_long						KEYWORD2
+jsonlite_token_to_long_long					KEYWORD2
+jsonlite_buffer_set_mem						KEYWORD2
+jsonlite_buffer_append_mem					KEYWORD2
+jsonlite_buffer_data						KEYWORD2
+jsonlite_buffer_size						KEYWORD2
+jsonlite_buffer_capacity					KEYWORD2
+jsonlite_null_buffer						KEYWORD2
+jsonlite_stream_write						KEYWORD2
+jsonlite_stream_null						KEYWORD2
+jsonlite_parser_init						KEYWORD2
+jsonlite_parser_set_callback				KEYWORD2
+jsonlite_parser_get_result					KEYWORD2
+jsonlite_parser_tokenize					KEYWORD2
+jsonlite_parser_resume						KEYWORD2
+jsonlite_parser_suspend						KEYWORD2
+jsonlite_parser_terminate					KEYWORD2
+jsonlite_parser_callbacks_init				KEYWORD2
+jsonlite_parser_estimate_size				KEYWORD2
+jsonlite_builder_estimate_size				KEYWORD2
+jsonlite_builder_init						KEYWORD2
+jsonlite_builder_set_indentation			KEYWORD2
+jsonlite_builder_set_double_format			KEYWORD2
+jsonlite_builder_object_begin				KEYWORD2
+jsonlite_builder_object_end					KEYWORD2
+jsonlite_builder_array_begin				KEYWORD2
+jsonlite_builder_array_end					KEYWORD2
+jsonlite_builder_key						KEYWORD2
+jsonlite_builder_string						KEYWORD2
+jsonlite_builder_int						KEYWORD2
+jsonlite_builder_double						KEYWORD2
+jsonlite_builder_true						KEYWORD2
+jsonlite_builder_false						KEYWORD2
+jsonlite_builder_null						KEYWORD2
+jsonlite_builder_raw_key					KEYWORD2
+jsonlite_builder_raw_string					KEYWORD2
+jsonlite_builder_raw_value					KEYWORD2
+jsonlite_builder_base64_value				KEYWORD2
+jsonlite_buffer_static_size					KEYWORD2
+jsonlite_buffer_static_size_ext				KEYWORD2
+jsonlite_buffer_static_init					KEYWORD2
+jsonlite_static_mem_stream_size				KEYWORD2
+jsonlite_stream_static_init					KEYWORD2
+jsonlite_stream_static_written_bytes		KEYWORD2
+jsonlite_stream_static_data					KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+jsonlite_result_unknown 					LITERAL1
+jsonlite_result_ok 							LITERAL1
+jsonlite_result_end_of_stream 				LITERAL1
+jsonlite_result_depth_limit 				LITERAL1
+jsonlite_result_expected_object_or_array	LITERAL1
+jsonlite_result_expected_value				LITERAL1
+jsonlite_result_expected_key_or_end 		LITERAL1
+jsonlite_result_expected_key 				LITERAL1
+jsonlite_result_expected_colon 				LITERAL1
+jsonlite_result_expected_comma_or_end		LITERAL1
+jsonlite_result_invalid_escape				LITERAL1
+jsonlite_result_invalid_number 				LITERAL1
+jsonlite_result_invalid_token 				LITERAL1
+jsonlite_result_invalid_utf8 				LITERAL1
+jsonlite_result_suspended 					LITERAL1
+jsonlite_result_not_allowed 				LITERAL1
+jsonlite_result_out_of_memory 				LITERAL1
+jsonlite_none 								LITERAL1
+jsonlite_token_null 						LITERAL1
+jsonlite_token_true 						LITERAL1
+jsonlite_token_false 						LITERAL1
+jsonlite_token_key 							LITERAL1
+jsonlite_token_number 						LITERAL1
+jsonlite_token_string 						LITERAL1
+jsonlite_token_type_mask 					LITERAL1
+jsonlite_number_int 						LITERAL1
+jsonlite_number_frac 						LITERAL1
+jsonlite_number_exp 						LITERAL1
+jsonlite_number_negative 					LITERAL1
+jsonlite_number_zero_leading 				LITERAL1
+jsonlite_number_digit_leading 				LITERAL1
+jsonlite_string_ascii 						LITERAL1
+jsonlite_string_utf8 						LITERAL1
+jsonlite_string_escape 						LITERAL1
+jsonlite_string_unicode_escape 				LITERAL1
+jsonlite_string_unicode_noncharacter		LITERAL1
+jsonlite_event_finished						LITERAL1
+jsonlite_event_object_start					LITERAL1
+jsonlite_event_object_end					LITERAL1
+jsonlite_event_array_start					LITERAL1
+jsonlite_event_array_end					LITERAL1
